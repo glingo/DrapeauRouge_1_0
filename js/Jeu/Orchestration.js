@@ -286,7 +286,7 @@ Orchestration.prototype.loadVagues = function(){
 		this.generique();
 	}else if(this.niveau == 0 && this.time == this.endTime){
 		this.master.stop();
-		this.saveScore(Score.getInstance().score);
+		//this.saveScore(Score.getInstance().score);
 	}
 };
 
